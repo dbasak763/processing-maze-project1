@@ -11,7 +11,7 @@
 ### Desktop App (Processing/Java)
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/physics-maze.git
+git clone https://github.com/dbasak763/processing-maze-project1.git
 cd physics-maze/processing-app
 
 # Build and run
@@ -23,7 +23,7 @@ java -jar build/libs/physics-maze-all.jar
 ```
 
 ### Web Demo
-Simply visit the [live demo](https://yourusername.github.io/physics-maze) or serve locally:
+Simply visit the [live demo](https://dbasak763.github.io/processing-maze-project1) or serve locally:
 ```bash
 cd web-demo
 python -m http.server 8000
@@ -123,7 +123,7 @@ web-demo/
 ### Building from Source
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/physics-maze.git
+git clone https://github.com/dbasak763/processing-maze-project1.git
 cd physics-maze
 
 # Build Processing app
