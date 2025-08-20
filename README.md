@@ -1,9 +1,5 @@
 # Physics-Maze — Interactive, physics-driven maze generator
 
-![Build Status](https://github.com/yourusername/physics-maze/workflows/CI/badge.svg)
-![Release](https://img.shields.io/github/v/release/yourusername/physics-maze)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 **Try it in your browser:** ➜ [Live demo on GitHub Pages](https://yourusername.github.io/physics-maze)
 
 - Real-time force-based simulation and visualization
