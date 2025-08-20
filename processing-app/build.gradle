@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.processing:core:3.3.7'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+    mainClass = 'com.physicsmaze.PhysicsMaze'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
+// Add JVM args for macOS compatibility
+run {
+    jvmArgs = [
+        '--add-exports=java.desktop/com.apple.eawt=ALL-UNNAMED',
+        '--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED'
+    ]
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.physicsmaze.PhysicsMaze'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+task fatJar(type: Jar) {
+    archiveClassifier = 'all'
+    manifest {
+        attributes 'Main-Class': 'com.physicsmaze.PhysicsMaze'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+test {
+    useJUnit()
+}
+
+// Custom task to run the Processing sketch
+task runSketch(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'com.physicsmaze.PhysicsMaze'
+}

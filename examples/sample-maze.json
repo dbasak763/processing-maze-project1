@@ -1,0 +1,94 @@
+{
+  "name": "Sample Physics Maze",
+  "description": "A demonstration maze with various physics elements",
+  "version": "1.0",
+  "particles": [
+    {
+      "x": 100,
+      "y": 100,
+      "locked": true,
+      "mass": 1.0
+    },
+    {
+      "x": 200,
+      "y": 100,
+      "locked": true,
+      "mass": 1.0
+    },
+    {
+      "x": 300,
+      "y": 100,
+      "locked": false,
+      "mass": 1.0
+    },
+    {
+      "x": 100,
+      "y": 200,
+      "locked": true,
+      "mass": 1.0
+    },
+    {
+      "x": 200,
+      "y": 200,
+      "locked": false,
+      "mass": 1.0
+    },
+    {
+      "x": 300,
+      "y": 200,
+      "locked": true,
+      "mass": 1.0
+    }
+  ],
+  "constraints": [
+    {
+      "a": 0,
+      "b": 1,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "restLength": 100.0,
+      "stiffness": 1.0
+    }
+  ],
+  "settings": {
+    "gravity": 980,
+    "iterations": 6,
+    "timestep": 0.016666,
+    "showForces": true,
+    "showFPS": true
+  }
+}
