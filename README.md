@@ -1,6 +1,6 @@
 # Physics-Maze — Interactive, physics-driven maze generator
 
-**Try it in your browser:** ➜ [Live demo on GitHub Pages](https://yourusername.github.io/physics-maze)
+**Try it:** ➜
 
 - Real-time force-based simulation and visualization
 - Build mazes interactively; supports undo/redo, presets, export/import
@@ -23,7 +23,7 @@ java -jar build/libs/physics-maze-all.jar
 ```
 
 ### Web Demo
-Simply visit the [live demo](https://dbasak763.github.io/processing-maze-project1) or serve locally:
+serve locally:
 ```bash
 cd web-demo
 python -m http.server 8000
