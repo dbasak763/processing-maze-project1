@@ -208,10 +208,6 @@ long getKey(float x, float y) {
 - [ ] VR/AR support
 - [ ] Machine learning maze solving
 
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ### Good First Issues
 - Add new maze generation algorithms
 - Improve UI/UX design
@@ -238,8 +234,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Spatial hashing technique from [Real-Time Collision Detection](https://realtimecollisiondetection.net/)
 - Organic curve evolution based on [Karan Singh's paper on curve generation](https://www.dgp.toronto.edu/~karan/artexhibit/mazes.pdf)
 
-
-
-**Made with ❤️ by [Diwakar Basak](https://github.com/dbasak763)**
-
-*If you find this project useful, please consider giving it a ⭐!*
