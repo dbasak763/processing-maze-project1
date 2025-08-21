@@ -1,6 +1,6 @@
 # Physics-Maze — Interactive, physics-driven maze generator
 
-**Try it[Live Deployment is Broken]:** ➜
+**Try it:** ➜
 
 - Real-time force-based simulation and visualization
 - Build mazes interactively; supports undo/redo, presets, export/import
