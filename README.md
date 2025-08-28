@@ -1,4 +1,4 @@
-# Physics-Maze — Interactive, physics-driven maze generator(2021 with some new updates)
+# Physics-Maze — Interactive, physics-driven maze generator(worked on 2021 with some new updates)
 
 **Try it:** ➜
 
