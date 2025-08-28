@@ -57,17 +57,6 @@ python -m http.server 8000
 
 ## Controls
 
-### Desktop App
-| Key | Action |
-|-----|--------|
-| `Space` | Play/Pause simulation |
-| `Z` | Undo last action |
-| `Y` | Redo action |
-| `F` | Toggle force visualization |
-| `C` | Clear maze |
-| `G` | Generate new maze |
-| `Mouse` | Interact based on current mode |
-
 ### Web Demo
 - Same keyboard shortcuts plus click-based UI controls
 - Touch support for mobile devices
