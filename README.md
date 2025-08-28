@@ -6,7 +6,7 @@
 - Build mazes interactively; supports undo/redo, presets, export/import
 - Optimized collision & constraint solver (≈30% faster than naive approach)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Desktop App (Processing/Java)
 ```bash
@@ -30,7 +30,7 @@ python -m http.server 8000
 # Open http://localhost:8000
 ```
 
-## ✨ Features
+## Features
 
 ### Core Physics Engine
 - **Verlet Integration**: Stable, energy-conserving particle dynamics
@@ -55,7 +55,7 @@ python -m http.server 8000
 - **JSON Format**: Save/load complete maze states
 - **Performance Data**: Export benchmark results
 
-## 🎮 Controls
+## Controls
 
 ### Desktop App
 | Key | Action |
@@ -72,7 +72,7 @@ python -m http.server 8000
 - Same keyboard shortcuts plus click-based UI controls
 - Touch support for mobile devices
 
-## 🏗️ Architecture
+## Architecture
 
 ### Processing App Structure
 ```
@@ -113,7 +113,7 @@ web-demo/
 
 *Tested on MacBook Pro M1, 16GB RAM*
 
-## 🛠️ Development
+## Development
 
 ### Prerequisites
 - Java 17+
@@ -151,7 +151,7 @@ python -m http.server 8000
 # Or use any static file server
 ```
 
-## 📊 Technical Details
+## Technical Details
 
 ### Physics Implementation
 The engine uses **Verlet integration** combined with **position-based dynamics** for constraint solving:
@@ -187,26 +187,14 @@ long getKey(float x, float y) {
 }
 ```
 
-## 🎯 Roadmap
+## Roadmap
 
-### Version 1.0 (Current)
+### Version
 - [x] Core physics engine
 - [x] Interactive editing tools
 - [x] Web demo
 - [x] Basic maze generators
 - [x] Export functionality
-
-### Version 1.1 (Planned)
-- [ ] Advanced maze algorithms (Wilson's, Eller's)
-- [ ] Particle system effects
-- [ ] Sound integration
-- [ ] Mobile app (React Native)
-
-### Version 2.0 (Future)
-- [ ] 3D physics simulation
-- [ ] Multiplayer collaboration
-- [ ] VR/AR support
-- [ ] Machine learning maze solving
 
 ### Good First Issues
 - Add new maze generation algorithms
@@ -222,11 +210,8 @@ long getKey(float x, float y) {
 4. Run the test suite: `./gradlew test`
 5. Submit a pull request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Processing Foundation](https://processing.org/) for the amazing creative coding platform
 - [p5.js](https://p5js.org/) for web-based creative coding
