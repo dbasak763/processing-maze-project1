@@ -95,7 +95,7 @@ web-demo/
 └── assets/                       # Web resources
 ```
 
-## ⚡ Performance
+## Performance
 
 ### Optimizations Implemented
 - **Spatial Hashing**: Reduces collision checks from O(n²) to ~O(n)
